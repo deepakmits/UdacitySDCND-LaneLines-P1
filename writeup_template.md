@@ -29,7 +29,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"]
+![alt text](./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve")
 
 
 ### 2. Potential shortcomings with your current pipeline
