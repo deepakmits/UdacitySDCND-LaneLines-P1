@@ -2,18 +2,19 @@
 
 ## 1. Pipeline for lane line identification - 
 ### Step 1: Read Image.
+![alt text](./test_images/solidWhiteCurve.jpg "solidWhiteCurve")
 ### Step 2: Convert read image to grayscale using helper function.
-[./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"]: ./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"
+![alt text](./output_images/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve")
 ### Step 3: Apply gaussian blur to greyed image using helper function.
-[image2]: ./examples/blurred_solidWhiteCurve.jpg "blurred_solidWhiteCurve"
+![alt text](./output_images/blurred_solidWhiteCurve.jpg "blurred_solidWhiteCurve")
 ### Step 4: Apply canny edge detection to blurred image using helper function.
-[image3]: ./examples/canny_solidWhiteCurve.jpg "canny_solidWhiteCurve"
+![alt text](./output_images/canny_solidWhiteCurve.jpg "canny_solidWhiteCurve")
 ### Step 5: Mask region of interest on canny edges detected image using vertices and helper function.
-[image4]: ./examples/masked_solidWhiteCurve.jpg "masked_solidWhiteCurve"
+![alt text](./output_images/masked_solidWhiteCurve.jpg "masked_solidWhiteCurve")
 ### Step 6: Apply hough line function on masked region with tuned hough transformation parameters.
-[image5]: ./examples/lines_drawn_solidWhiteCurve.jpg "lines_drawn_solidWhiteCurve"
+![alt text](./output_images/lines_drawn_solidWhiteCurve.jpg "lines_drawn_solidWhiteCurve")
 ### Step 7: Blend image with hough lines with the initial image using weighted_img given helper function.
-[image5]: ./examples/output_solidWhiteCurve.jpg "output_solidWhiteCurve"
+![alt text](./output_images/output_solidWhiteCurve.jpg "output_solidWhiteCurve")
 
 Applied above steps on all the given test images and got transformed all the images.
 
