@@ -1,9 +1,9 @@
 # **Finding Lane Lines on the Road** 
 
-## Pipeline for lane line identification - 
+## 1. Pipeline for lane line identification - 
 ### Step 1: Read Image.
 ### Step 2: Convert read image to grayscale using helper function.
-[image1]: ./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"
+[./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"]: ./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"
 ### Step 3: Apply gaussian blur to greyed image using helper function.
 [image2]: ./examples/blurred_solidWhiteCurve.jpg "blurred_solidWhiteCurve"
 ### Step 4: Apply canny edge detection to blurred image using helper function.
@@ -29,7 +29,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][image1]
+![alt text][./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve"]
 
 
 ### 2. Potential shortcomings with your current pipeline
