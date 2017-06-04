@@ -24,14 +24,6 @@ Applied above steps on all the given test images and got transformed all the ima
 3) Keep taking averages of x and y coordinates and keep drawing lines.
 4) Adjust thickness of line by changing thickness parameter to 8.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text](./examples/greyed_solidWhiteCurve.jpg "greyed_solidWhiteCurve")
-
 
 ### 2. Potential shortcomings with your current pipeline
 
