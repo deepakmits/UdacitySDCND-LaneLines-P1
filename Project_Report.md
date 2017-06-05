@@ -12,7 +12,7 @@
 ### Step 5: Mask region of interest on canny edges detected image using vertices and helper function.
 ![alt text](./output_images/masked_solidWhiteCurve.jpg "masked_solidWhiteCurve")
 ### Step 6: Apply hough line function on masked region with tuned hough transformation parameters.
-![alt text](./output_images/lines_drawn_solidWhiteCurve.jpg "lines_drawn_solidWhiteCurve")
+![alt text](./output_images/lines_drawnsolidWhiteCurve.jpg "lines_drawnsolidWhiteCurve")
 ### Step 7: Blend image with hough lines with the initial image using weighted_img given helper function.
 ![alt text](./output_images/output_solidWhiteCurve.jpg "output_solidWhiteCurve")
 
