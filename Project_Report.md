@@ -18,18 +18,19 @@
 
 Applied above steps on all the given test images and got transformed all the images.
 
+For video analysis process_image function has been written using above pipleline.
+
 ### To draw a single line on left and right lanes, draw_lines() function was modified as below -
-1) Loop thru all the line segments and calculate slope using (y2-y1)/(x2-x1).
+1) Looped thru all the line segments and calculate slope using (y2-y1)/(x2-x1).
 2) Based on slope values segments are grouped in left(slope < 0) and right lanes(slope > 0).
 3) Keep taking averages of x and y coordinates and keep drawing lines.
-4) Adjust thickness of line by changing thickness parameter to 8.
+4) Adjusted thickness of line by changing thickness parameter to 8.
 
 
 ### 2. Potential shortcomings with your current pipeline
 
 
 One potential shortcoming would be when position of lane lines in in an image is very different from the given test images/videos. Then this pipeline would not work as expected.
-
 
 
 
